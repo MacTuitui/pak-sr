@@ -583,12 +583,12 @@
         ctx.beginPath();
         ctx.strokeStyle= "rgba(100,100,100,0.5)";
         //ctx.rect(w*0.045, h*0.8,w*0.205,h*0.13);
-        ctx.rect(w*0.045, h*0.8,w*0.165,h*0.145);
+        ctx.rect(w*0.045, h*0.8,w*0.172,h*0.145);
         ctx.stroke();
         ctx.beginPath();
         ctx.fillStyle= "rgba(100,100,100,0.1)";
         //ctx.rect(w*0.045, h*0.8,w*0.205,h*0.12);
-        ctx.rect(w*0.045, h*0.8,w*0.165,h*0.145);
+        ctx.rect(w*0.045, h*0.8,w*0.172,h*0.145);
         ctx.fill();
 
         ctx.fillStyle=style2;
@@ -599,7 +599,7 @@
         ctx.fillText(n_addresses+' COLLECTORS',w*0.06, h*0.86);
         ctx.fillText('FROM FEB. 3 2020',w*0.06, h*0.875);
         ctx.fillText('BY MACTUITUI',w*0.06, h*0.9);
-        ctx.fillText('BASED ON A ARC4G IDEA',w*0.06, h*0.915);
+        ctx.fillText('BASED ON AN ARC4G IDEA',w*0.06, h*0.915);
         ctx.fillText('CLICK TO REPLAY',w*0.06, h*0.93);
         //can we draw the time
         //
